@@ -1,5 +1,4 @@
-module.exports = 
-function zeros(expression) {
+module.exports = function zeros(expression) {
   let exprs=expression.split('*');
   let result=[]
   let fives=0,twos=0,tens=0;
